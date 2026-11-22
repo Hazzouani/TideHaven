@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rod_Tier7_DecoMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
+  m_Elements:
+  - m_Path: FR_Tier7_Rig
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05/Bend_06
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05/Bend_06/Deco_Tip_Crystal
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05/Bend_06/Tip_Socket
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05/Deco_Big_Star
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Bend_05/Deco_Moon
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Deco_Core_Crystal
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Deco_Core_Star
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Deco_Ring_Vertical
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Deco_Ring_Gold
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Deco_Ring_Purple
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_1
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_1/Deco_Planet_1
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_1/Deco_Star_1
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_2
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_2/Deco_Planet_2
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Orrery/Sat_2/Deco_Star_2
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_3
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_3/Deco_Planet_3
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_3/Deco_Star_3
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_4
+    m_Weight: 0
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_4/Deco_Planet_4
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Bend_01/Bend_02/Bend_03/Bend_04/Sat_4/Deco_Star_4
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Deco_Reel_Ring
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Deco_Reel_Star
+    m_Weight: 1
+  - m_Path: FR_Tier7_Rig/Root/Reel_Spool
+    m_Weight: 0
