@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5984417312593797062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5803365172461804072}
+  - component: {fileID: 4797351114266791184}
+  - component: {fileID: 6424915758670124800}
+  m_Layer: 0
+  m_Name: 07 | Inez - Merchant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5803365172461804072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984417312593797062}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7032332, y: -0.07391278, z: -0.073912784, w: 0.7032332}
+  m_LocalPosition: {x: 0.0013504028, y: -0.000000059604645, z: -0.0063565075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2149415789000927592}
+  m_Father: {fileID: 1815002338042575794}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4797351114266791184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984417312593797062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47819ea8535df49deb049b67e27d9841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  npcName: Inez
+  promptFormat: Press E to talk to {name}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!136 &6424915758670124800
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984417312593797062}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.8477
+  m_Height: 0.33617878
+  m_Direction: 1
+  m_Center: {x: 0.0000013922108, y: -0.0064982176, z: 0.8477}
+--- !u!1 &6733227533732230839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2149415789000927592}
+  - component: {fileID: 8572462212270872593}
+  - component: {fileID: 3108863239822824896}
+  m_Layer: 0
+  m_Name: 07 | Inez - Merchant|Inez - Merchant|Dupli|
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2149415789000927592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733227533732230839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.000000059604645, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5803365172461804072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8572462212270872593
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733227533732230839}
+  m_Mesh: {fileID: 8144896640248364845, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+--- !u!23 &3108863239822824896
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6733227533732230839}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8463289591257440595, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: 3241270517061609527, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -8410559256902705393, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -6128905916592127494, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -216702203902803992, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -4316758305731699845, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -3018824997483726763, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -2071571910866616063, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: 4442794778468478381, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -1576271224157516784, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: 8934897784650395772, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -4840390716787473248, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -1491326601562414589, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -8710038382438962084, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -7657811856302132009, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: -5120176994665589830, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  - {fileID: 8340118405646448769, guid: 0076658d30c0547789862999507dbc4b, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7013637984487106705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1815002338042575794}
+  m_Layer: 0
+  m_Name: NPC_Inez
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815002338042575794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013637984487106705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.016592, y: 0.210024, z: -0.24461126}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5803365172461804072}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
