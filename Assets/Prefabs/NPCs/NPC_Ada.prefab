@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7979346522217241516}
   - component: {fileID: 2037416191888842404}
   - component: {fileID: 6175147187980499463}
+  - component: {fileID: 1140561216620265842}
   m_Layer: 0
   m_Name: 09 | Ada - Construction worker
   m_TagString: Untagged
@@ -74,6 +75,19 @@ CapsuleCollider:
   m_Height: 0.30610216
   m_Direction: 1
   m_Center: {x: 0.00000024121255, y: -0.031276822, z: 0.90142494}
+--- !u!114 &1140561216620265842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911004201554502699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f6f0ad61c5347f9bedafd8cbf63e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  lines: {fileID: 11400000, guid: a035c2e16ea6043dd8407346db9ed249, type: 2}
 --- !u!1 &4712290601531232547
 GameObject:
   m_ObjectHideFlags: 0

@@ -190,7 +190,7 @@ public class FishingCaster : MonoBehaviour
                 velocity += Vector3.down * gravity * dt;
                 Vector3 to = from + velocity * dt;
                 RaycastHit hit;
-                if (Physics.Linecast(from, to, out hit, landOn, QueryTriggerInteraction.Ignore)) Land(hit);
+                if (Physics.Linecast(from, to, out hit, landOn, QueryTriggerInteraction.Collide)) Land(hit); // Collide: the water is a trigger
                 else
                 {
                     bobber.position = to;

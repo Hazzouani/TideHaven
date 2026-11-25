@@ -36,8 +36,10 @@ public class HeldItemSway : MonoBehaviour
     public float idleAmount = 0.006f;
     public float idleSpeed = 1.6f;
 
-    [Tooltip("Player's CharacterController (found automatically).")]
-    public CharacterController controller;
+    [Tooltip("Player's Rigidbody (found automatically).")]
+    public Rigidbody body;
+    [Tooltip("Player's movement script, used for the ground check (found automatically).")]
+    public PlayerMovement mover;
 
     Vector3 basePos;
     Quaternion baseRot;
@@ -50,7 +52,8 @@ public class HeldItemSway : MonoBehaviour
     {
         basePos = transform.localPosition;
         baseRot = transform.localRotation;
-        if (controller == null) controller = GetComponentInParent<CharacterController>();
+        if (mover == null) mover = FindAnyObjectByType<PlayerMovement>();
+        if (body == null && mover != null) body = mover.GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -58,11 +61,11 @@ public class HeldItemSway : MonoBehaviour
         float dt = Time.deltaTime;
 
         // --- movement info (in camera space, so "sideways" is relative to where you look)
-        Vector3 vel = controller != null ? controller.velocity : Vector3.zero;
+        Vector3 vel = body != null ? body.linearVelocity : Vector3.zero;
         Vector3 flat = new Vector3(vel.x, 0f, vel.z);
         Vector3 localVel = transform.parent != null ? transform.parent.InverseTransformDirection(flat) : flat;
         float speed01 = Mathf.Clamp01(flat.magnitude / walkSpeedForFullBob);
-        bool grounded = controller == null || controller.isGrounded;
+        bool grounded = mover == null || mover.IsGrounded;
 
         // --- look sway: lag behind the mouse
         float mx = Input.GetAxis("Mouse X");

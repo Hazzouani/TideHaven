@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 2038935946167824847}
   - component: {fileID: 8227737418787692593}
   - component: {fileID: 5333845256103982406}
+  - component: {fileID: 977846735607267544}
   m_Layer: 0
   m_Name: 01 | Mina - Villager
   m_TagString: Untagged
@@ -209,3 +210,16 @@ CapsuleCollider:
   m_Height: 0.33617938
   m_Direction: 1
   m_Center: {x: 0.0000014356337, y: -0.0064983964, z: 0.82175016}
+--- !u!114 &977846735607267544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5247155529727712981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f6f0ad61c5347f9bedafd8cbf63e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  lines: {fileID: 11400000, guid: 4b9ad8007d3414669aa94469d6b4c1f4, type: 2}

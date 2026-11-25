@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5803365172461804072}
   - component: {fileID: 4797351114266791184}
   - component: {fileID: 6424915758670124800}
+  - component: {fileID: 3401385867800994256}
   m_Layer: 0
   m_Name: 07 | Inez - Merchant
   m_TagString: Untagged
@@ -74,6 +75,19 @@ CapsuleCollider:
   m_Height: 0.33617878
   m_Direction: 1
   m_Center: {x: 0.0000013922108, y: -0.0064982176, z: 0.8477}
+--- !u!114 &3401385867800994256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984417312593797062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f6f0ad61c5347f9bedafd8cbf63e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  lines: {fileID: 11400000, guid: 115b53b801cf146a7973cf9d8648402d, type: 2}
 --- !u!1 &6733227533732230839
 GameObject:
   m_ObjectHideFlags: 0

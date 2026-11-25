@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 2996054509380397651}
   - component: {fileID: 4990299696195037873}
   - component: {fileID: 4832659040932525576}
+  - component: {fileID: 2847750276559959763}
   m_Layer: 0
   m_Name: 05 | Rafi - Fisherman
   m_TagString: Untagged
@@ -212,3 +213,16 @@ CapsuleCollider:
   m_Height: 0.3211012
   m_Direction: 1
   m_Center: {x: -0.000000056810677, y: -0.014750719, z: 0.88300014}
+--- !u!114 &2847750276559959763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881277292944309869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f6f0ad61c5347f9bedafd8cbf63e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  lines: {fileID: 11400000, guid: 9b1133dfcc0f140d7a16af6dcb99d51c, type: 2}

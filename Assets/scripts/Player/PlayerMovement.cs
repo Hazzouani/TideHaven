@@ -20,6 +20,7 @@ public KeyCode jumpKey = KeyCode.Space;
     public float PlayerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+    public bool IsGrounded { get { return grounded; } }
 
 
     public Transform orientation;

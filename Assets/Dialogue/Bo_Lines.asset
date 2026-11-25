@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3043b17d54949e7a434fc7c69b7249, type: 3}
+  m_Name: Bo_Lines
+  m_EditorClassIdentifier: Assembly-CSharp::NpcLines
+  nameColor: {r: 1, g: 0.78, b: 0.35, a: 1}
+  voicePitch: 0.9
+  greeting: Welcome to Bo's! If it swims, I'll buy it. If it bites, I sell bait for it.
+  lines:
+  - Bring me your catch and I'll pay you a fair price. Mostly fair.
+  - Fresh bait, fresh coins. That's how this town works.
+  - Bigger fish, bigger payout. Simple as that.
+  - Don't tell Inez, but half her customers start out here.
+  - Smells like money in here. Or fish. Same thing, really.

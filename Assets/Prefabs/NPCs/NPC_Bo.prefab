@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8361158554250499716}
   - component: {fileID: 6855177184417289996}
   - component: {fileID: 531291920900818102}
+  - component: {fileID: 9151918874717912975}
   m_Layer: 0
   m_Name: 08 | Bo - Shopkeeper
   m_TagString: Untagged
@@ -74,6 +75,19 @@ CapsuleCollider:
   m_Height: 0.7052945
   m_Direction: 1
   m_Center: {x: 0.0000007292256, y: -0.031277, z: 0.883245}
+--- !u!114 &9151918874717912975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541714550381758749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f6f0ad61c5347f9bedafd8cbf63e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  lines: {fileID: 11400000, guid: 2726b8d1458744826a88cd354eaf5d61, type: 2}
 --- !u!1 &2729245231233069012
 GameObject:
   m_ObjectHideFlags: 0

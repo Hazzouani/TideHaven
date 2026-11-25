@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3043b17d54949e7a434fc7c69b7249, type: 3}
+  m_Name: Mina_Lines
+  m_EditorClassIdentifier: Assembly-CSharp::NpcLines
+  nameColor: {r: 0.5, g: 1, b: 0.6, a: 1}
+  voicePitch: 1.35
+  greeting: Hi! I'm Mina. You're the new fisher everyone's talking about, right?
+  lines:
+  - Could you bring me three fish? Grandma's cooking soup tonight!
+  - I saw something huge splash near the pier this morning. Huge!
+  - Rafi says I talk too much. I don't think that's true. Do you?
+  - If you ever catch something shiny, show me first, okay?
+  - The sunsets here are the best in the world. Not that I've seen the world.
